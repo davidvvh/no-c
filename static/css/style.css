@@ -188,53 +188,110 @@ body {
 .pokemon-types {
     display: flex;
     justify-content: center;
-    gap: 6px;
-    margin-bottom: 10px;
+    gap: 8px;
+    margin-bottom: 14px;
     flex-wrap: wrap;
 }
 
-.type-badge.plant {
+.type-badg {
     display: inline-block;
-    background-color: #a8d5a2;
-    padding: 4px 12px;
+    padding: 4px 14px;
     border-radius: 30px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     color: #1f1f1f;
     letter-spacing: 0.3px;
+    text-transform: capitalize;
 }
 
-.type-badge.poison {
-    display: inline-block;
-    background-color: #c9a8d4;
-    padding: 4px 12px;
-    border-radius: 30px;
-    font-size: 12px;
-    font-weight: 600;
+.type-badge.planta {
+    background-color: #3C9F24;
     color: #1f1f1f;
-    letter-spacing: 0.3px;
 }
 
-.type-badge.fire {
-    display: inline-block;
-    background-color: #FFA500;
-    padding: 4px 12px;
-    border-radius: 30px;
-    font-size: 12px;
-    font-weight: 600;
-    color: #1f1f1f;
-    letter-spacing: 0.3px;
+.type-badge.veneno {
+    background-color: #923FCC;
+    color: #fff;
 }
 
-.type-badge.water {
-    display: inline-block;
-    background-color: #2481F0;
-    padding: 4px 12px;
-    border-radius: 30px;
-    font-size: 12px;
-    font-weight: 600;
-    color: #1f1f1f;
-    letter-spacing: 0.3px;
+.type-badge.fuego {
+    background-color: #E62829;
+    color: #fff;
+}
+
+.type-badge.agua {
+    background-color: #2980EF;
+    color: #fff;
+}
+
+.type-badge.electrico {
+    background-color: #2980EF;
+    color: #fff;
+}
+
+.type-badge.normal {
+    background-color: #9FA19F;
+    color: #fff;
+}
+
+.type-badge.hada {
+    background-color: #EF71EF;
+    color: #fff;
+}
+
+.type-badge.fantasma {
+    background-color: #704170;
+    color: #fff;
+}
+
+.type-badge.roca {
+    background-color: #AFA981;
+    color: #fff;
+}
+
+.type-badge.tierra {
+    background-color: #915121;
+    color: #fff;
+}
+
+.type-badge.hielo {
+    background-color: #3FD8FF;
+    color: #fff;
+}
+
+.type-badge.lucha {
+    background-color: #FF8000;
+    color: #fff;
+}
+
+.type-badge.volador {
+    background-color: #81B9EF;
+    color: #fff;
+}
+
+.type-badge.psíquico {
+    background-color: #EF4179;
+    color: #fff;
+}
+
+.type-badge.bicho {
+    background-color: #91A119;
+    color: #fff;
+}
+
+.type-badge.dragón {
+    background-color: #5061E1;
+    color: #fff;
+}
+
+.type-badge.siniestro {
+    background-color: #50413F;
+    color: #fff;
+}
+
+.type-badge.acero {
+    background-color: #60A1B8;
+    color: #fff;
 }
 
 .pokemon-stats {

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ pokemon.nombre }} - Pokédex</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+    <div class="pokedex-wrapper">
+        <div class="pokedex-nav" style="margin-bottom: 30px;">
+            <div class="nav-top">
+                <img src="{{ url_for('static', filename='img/pokebola.png') }}" alt="Pokébola" class="pokeball-icon" />
+                <span class="nav-title">Pokédex</span>
+            </div>
+            <div class="nav-middle">
+                <span class="nav-subtitle">Detalles de {{ pokemon.nombre }}</span>
+            </div>
+            <div class="nav-bottom">
+                <div class="nav-buttons">
+                    <button class="btn-view-all" onclick="window.location.href='/'">Volver</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TARJETA DE DETALLE -->
+        <div style="display: flex; justify-content: center;">
+            <div class="pokemon-card" style="max-width: 350px; width: 100%;">
+                <div class="pokemon-number">#{{ pokemon.id }}</div>
+                <img 
+                    class="pokemon-image" 
+                    src="{{ url_for('static', filename='img/' + pokemon.imagen) }}" 
+                    alt="{{ pokemon.nombre }}"
+                    style="width: 180px; height: 180px;"
+                />
+                <div class="pokemon-name" style="font-size: 28px;">{{ pokemon.nombre }}</div>
+                <div class="pokemon-types">
+                    {% set tipos = pokemon.tipo.split('/') %}
+                    {% for tipo in tipos %}
+                    <span class="type-badge {{ tipo|lower }}">{{ tipo }}</span>
+                    {% endfor %}
+                </div>
+                <div class="pokemon-stats" style="padding: 14px 10px;">
+                    <div class="stat-item">
+                        <span class="stat-label">Poder</span>
+                        <span class="stat-value" style="font-size: 22px;">{{ pokemon.poder }}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Altura</span>
+                        <span class="stat-value" style="font-size: 22px;">{{ pokemon.altura }}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Peso</span>
+                        <span class="stat-value" style="font-size: 22px;">{{ pokemon.peso }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
