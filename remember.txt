@@ -2,7 +2,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 pokedex = [
-    {"id": 1, "nombre": "Bulbasaur", "tipo": "Planta/Veneno", "imagen": "Bulbasaur.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de bulbasaur
+    {"id": 1, "nombre": "Bulbasaur", "tipo": "Planta/Veneno", "color": "#3DA223" "#923FCC", "imagen": "Bulbasaur.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de bulbasaur
     {"id": 2, "nombre": "Ivysaur", "tipo": "Planta/Veneno", "imagen": "Ivysaur.png", "poder": 60, "altura": "1.0m", "peso": "13.0kg"}, #Datos de ivysaur
     {"id": 3, "nombre": "Venusaur", "tipo": "Planta/Veneno", "imagen": "Venusaur.png", "poder": 80, "altura": "2.0m", "peso": "100.0kg"}, #Datos de venusaur
     {"id": 4, "nombre": "Charmander", "tipo": "Fuego", "imagen": "Charmander.png", "poder": 39, "altura": "0.6m", "peso": "8.5kg"}, #Datos de charmander
