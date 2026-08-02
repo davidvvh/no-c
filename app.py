@@ -11,6 +11,12 @@ pokedex = [
     {"id": 7, "nombre": "Squirtle", "tipo": "Agua", "imagen": "Squirtle.png", "poder": 44, "altura": "0.5m", "peso": "9.0kg"}, #Datos de squirtle
     {"id": 8, "nombre": "Wartortle", "tipo": "Agua", "imagen": "Wartortle.png", "poder": 59, "altura": "1.0m", "peso": "22.5kg"}, #Datos de wartortle
     {"id": 9, "nombre": "Blastoise", "tipo": "Agua", "imagen": "Blastoise.png", "poder": 79, "altura": "1.6m", "peso": "85.5kg"}, #Datos de blastoise
+    {"id": 10, "nombre": "Caterpie", "tipo": "Bicho", "imagen": "Caterpie.png", "poder": 45, "altura": "0.3m", "peso": "2.9kg"}, #Datos de caterpie
+    {"id": 11, "nombre": "Metapod", "tipo": "Bicho", "imagen": "Metapod.png", "poder": 50, "altura": "0.7m", "peso": "9.9kg"}, #Datos de metapod
+    {"id": 12, "nombre": "Butterfree", "tipo": "Bicho/volador", "imagen": "Butterfree.png", "poder": 60, "altura": "1.1m", "peso": "32.0kg"}, #Datos de butterfree
+    {"id": 13, "nombre": "Weedle", "tipo": "Bicho/Veneno", "imagen": "Butterfree.png", "poder": 60, "altura": "0.3m", "peso": "3.2kg"}, #Datos de weedle
+    {"id": 14, "nombre": "Kakuna", "tipo": "Bicho/Veneno", "imagen": "Butterfree.png", "poder": 60, "altura": "1.1m", "peso": "32.0kg"}, #Datos de kakuna
+    {"id": 15, "nombre": "Beedrill", "tipo": "Bicho/Veneno", "imagen": "Butterfree.png", "poder": 60, "altura": "1.1m", "peso": "32.0kg"}, #Datos de beedrill
     {"id": 25, "nombre": "Pikachu", "tipo": "Electrico", "imagen": "Pikachu.png", "poder": 35, "altura": "0.4m", "peso": "6.0kg"}, #Datos de pikachu
     {"id": 39, "nombre": "Jigglypuff", "tipo": "Normal", "imagen": "Jigglypuff.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de jigglypuff
     {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de meowth
