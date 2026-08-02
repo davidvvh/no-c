@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex Nav</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+
+<body>
+    <div class="pokedex-wrapper">
+        <!-- BARRA DE NAVEGACIÓN -->
+        <div class="pokedex-nav">
+            <!-- SECCIÓN SUPERIOR: Pokébola + Pokédex (CENTRADO) -->
+            <div class="nav-top">
+                <img src="../static/img/pokebola.png" alt="Pokébola" class="pokeball-icon" />
+                <span class="nav-title">Pokédex</span>
+            </div>
+            <!-- SECCIÓN MEDIA: Todos los Pokémon (CENTRADO) -->
+            <div class="nav-middle">
+                <span class="nav-subtitle">Todos los Pokémon</span>
+            </div>
+            <!-- SECCIÓN INFERIOR: Botones (CENTRADO) -->
+            <div class="nav-bottom">
+                <div class="nav-buttons">
+                    <button class="btn-view-all">Ver todos</button>
+                    <button class="btn-view-first">Ver 5 primeros</button>
+                </div>
+            </div>
+        </div>
+        <div class="pokemon-card">
+            <div class="pokemon-number">#1</div>
+            <img class="pokemon-image" src="../static/img/Bulbasaur.png" alt="Bulbasaur" />
+            <div class="pokemon-name">Bulbasaur</div>
+            <div class="pokemon-types">
+                <span class="type-badge plant">Planta</span>
+                <span class="type-badge poison">Veneno</span>
+            </div>
+            <div class="pokemon-stats">
+                <div class="stat-item">
+                    <span class="stat-label">Poder</span>
+                    <span class="stat-value">{{ pokemon.poder }}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Altura</span>
+                    <span class="stat-value">{{ pokemon.altura }}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Peso</span>
+                    <span class="stat-value">{{ pokemon.peso }}</span>
+                </div>
+            </div>
+            <button class="detail-btn" onclick="window.location.href='/pokemon/{{ pokemon.id }}'">Ver detalles</button>
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+</body>
+
+</html>
