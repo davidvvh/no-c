@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokédex Nav</title>
-    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
 </head>
 
 <body>
@@ -14,7 +14,7 @@
         <div class="pokedex-nav">
             <!-- SECCIÓN SUPERIOR: Pokébola + Pokédex (CENTRADO) -->
             <div class="nav-top">
-                <img src="../static/img/pokebola.png" alt="Pokébola" class="pokeball-icon" />
+                <img src="{{ url_for('static', filename='img/pokebola.png')}}" alt="Pokébola" class="pokeball-icon" />
                 <span class="nav-title">Pokédex</span>
             </div>
             <!-- SECCIÓN MEDIA: Todos los Pokémon (CENTRADO) -->
@@ -24,37 +24,41 @@
             <!-- SECCIÓN INFERIOR: Botones (CENTRADO) -->
             <div class="nav-bottom">
                 <div class="nav-buttons">
-                    <button class="btn-view-all">Ver todos</button>
-                    <button class="btn-view-first">Ver 5 primeros</button>
+                    <button class="btn-view-all" onclick="window.location.href='/'">Ver todos</button>
+                    <button class="btn-view-first" onclick="window.location.href='/primeros/5'">Ver 5 primeros</button>
                 </div>
             </div>
         </div>
-        <div class="pokemon-card">
-            <div class="pokemon-number">#1</div>
-            <img class="pokemon-image" src="../static/img/Bulbasaur.png" alt="Bulbasaur" />
-            <div class="pokemon-name">Bulbasaur</div>
-            <div class="pokemon-types">
-                <span class="type-badge plant">Planta</span>
-                <span class="type-badge poison">Veneno</span>
+        <div class="pokemon-grid">
+            {% for pokemon in pokemones %}
+            <div class="pokemon-card">
+                <div class="pokemon-number">#{{ pokemon.id }}</div>
+                <img class="pokemon-image" src="{{ url_for('static', filename='img/' + pokemon.imagen) }}" alt="{{ pokemon.nombre }}"/>
+                <div class="pokemon-name">{{ pokemon.nombre }}</div>
+                <div class="pokemon-types">
+                    {% set tipos = pokemon.tipo.split('/') %}
+                    {% for tipo in tipos %}
+                    <span class="type-badge {{ tipo|lower }}">{{ tipo }}</span>
+                    {% endfor %}
+                </div>
+                <div class="pokemon-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Poder</span>
+                        <span class="stat-value">{{ pokemon.poder }}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Altura</span>
+                        <span class="stat-value">{{ pokemon.altura }}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Peso</span>
+                        <span class="stat-value">{{ pokemon.peso }}</span>
+                    </div>
+                </div>
+                <button class="detail-btn" onclick="window.location.href='/pokemon/{{ pokemon.id }}'">Ver detalles</button>
             </div>
-            <div class="pokemon-stats">
-                <div class="stat-item">
-                    <span class="stat-label">Poder</span>
-                    <span class="stat-value">{{ pokemon.poder }}</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Altura</span>
-                    <span class="stat-value">{{ pokemon.altura }}</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Peso</span>
-                    <span class="stat-value">{{ pokemon.peso }}</span>
-                </div>
-            </div>
-            <button class="detail-btn" onclick="window.location.href='/pokemon/{{ pokemon.id }}'">Ver detalles</button>
+            {% endfor %}
         </div>
-        {% endfor %}
-    </div>
     </div>
 </body>
 
