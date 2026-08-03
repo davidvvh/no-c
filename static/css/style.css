@@ -120,11 +120,11 @@ body {
 /* Botón "Ver 5 primeros" - GRIS */
 .btn-view-first {
     background-color: #19d401;
-    color: #2d3748;
+    color: #fdfeff;
 }
 
 .btn-view-first:hover {
-    background-color: #194e00;
+    background-color: #38aa03;
     transform: translateY(-1px);
 }
 
