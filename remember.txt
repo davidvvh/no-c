@@ -40,3 +40,17 @@ def mostrar_pokemon_por_id(id):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+
+
+
+    {"id": 17,}#Datos de pidgeotto
+    {"id": 18,}#Datos de pidgeot
+    {"id": 19,}#Datos de rattata
+    {"id": 20,}#Datos de raticate
+    {"id": 21,}#Datos de
+    {"id": 22,}#Datos de
+    {"id": 23,}#Datos de
+    {"id": 24,}#Datos de

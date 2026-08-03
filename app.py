@@ -17,6 +17,7 @@ pokedex = [
     {"id": 13, "nombre": "Weedle", "tipo": "Bicho/Veneno", "imagen": "Weedle.png", "poder": 40, "altura": "0.3m", "peso": "3.2kg"}, #Datos de weedle
     {"id": 14, "nombre": "Kakuna", "tipo": "Bicho/Veneno", "imagen": "Kakuna.png", "poder": 45, "altura": "0.6m", "peso": "10.0kg"}, #Datos de kakuna
     {"id": 15, "nombre": "Beedrill", "tipo": "Bicho/Veneno", "imagen": "Beedrill.png", "poder": 65, "altura": "1.0m", "peso": "29.5kg"}, #Datos de beedrill
+    {"id": 16, "nombre": "Pidgey", "tipo": "Normal/Volador", "imagen": "Pidgey.png", "poder": "", "altura": "0.3m", "peso": "1.8kg",}#Datos de pidgey
     {"id": 25, "nombre": "Pikachu", "tipo": "Electrico", "imagen": "Pikachu.png", "poder": 35, "altura": "0.4m", "peso": "6.0kg"}, #Datos de pikachu
     {"id": 39, "nombre": "Jigglypuff", "tipo": "Normal", "imagen": "Jigglypuff.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de jigglypuff
     {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de meowth
