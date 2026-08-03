@@ -24,10 +24,8 @@ body {
 
 /* ---------- BARRA DE NAVEGACIÓN ---------- */
 .pokedex-nav {
-    background-color: #ffffff;
     border-radius: 12px;
     padding: 18px 24px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     border: 1px solid #e2e8f0;
     display: flex;
     flex-direction: column;
@@ -121,12 +119,12 @@ body {
 
 /* Botón "Ver 5 primeros" - GRIS */
 .btn-view-first {
-    background-color: #edf2f7;
+    background-color: #19d401;
     color: #2d3748;
 }
 
 .btn-view-first:hover {
-    background-color: #e2e8f0;
+    background-color: #194e00;
     transform: translateY(-1px);
 }
 
@@ -296,7 +294,6 @@ body {
 
 .pokemon-stats {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 4px;
     background-color: #f0f0f0;

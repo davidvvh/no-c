@@ -17,7 +17,15 @@ pokedex = [
     {"id": 13, "nombre": "Weedle", "tipo": "Bicho/Veneno", "imagen": "Weedle.png", "poder": 40, "altura": "0.3m", "peso": "3.2kg"}, #Datos de weedle
     {"id": 14, "nombre": "Kakuna", "tipo": "Bicho/Veneno", "imagen": "Kakuna.png", "poder": 45, "altura": "0.6m", "peso": "10.0kg"}, #Datos de kakuna
     {"id": 15, "nombre": "Beedrill", "tipo": "Bicho/Veneno", "imagen": "Beedrill.png", "poder": 65, "altura": "1.0m", "peso": "29.5kg"}, #Datos de beedrill
-    {"id": 16, "nombre": "Pidgey", "tipo": "Normal/Volador", "imagen": "Pidgey.png", "poder": "", "altura": "0.3m", "peso": "1.8kg",}#Datos de pidgey
+    {"id": 16, "nombre": "Pidgey", "tipo": "Normal/Volador", "imagen": "Pidgey.png", "poder": 40, "altura": "0.3m", "peso": "1.8kg"},#Datos de pidgey
+    {"id": 17, "nombre": "Pidgeotto", "tipo": "Normal/Volador", "imagen": "Pidgeotto.png", "poder": 63, "altura": "1.1m", "peso": "30.0kg"},#Datos de pidgeotto
+    {"id": 18, "nombre": "Pidgeot", "tipo": "Normal/Volador", "imagen": "Pidgeot.png", "poder": 83, "altura": "1.5m", "peso": "39.5kg"},#Datos de pidgeot
+    {"id": 19, "nombre": "Rattata", "tipo": "Normal", "imagen": "Rattata.png", "poder": 30, "altura": "0.3m", "peso": "3.5kg"},#Datos de rattata
+    {"id": 20, "nombre": "Raticate", "tipo": "Normal", "imagen": "Raticate.png", "poder": 55, "altura": "0.7m", "peso": "18.5kg"},#Datos de raticate
+    {"id": 21, "nombre": "Spearow", "tipo": "Normal/Volador", "imagen": "Spearow.png", "poder": 40, "altura": "0.3m", "peso": "2.0kg"},#Datos de spearow
+    {"id": 22, "nombre": "Fearow", "tipo": "Normal/Volador", "imagen": "Fearow.png", "poder": 65, "altura": "1.2m", "peso": "38.0kg"},#Datos de fearow
+    {"id": 23,},#Datos de ekans
+    {"id": 24,},#Datos de arbok
     {"id": 25, "nombre": "Pikachu", "tipo": "Electrico", "imagen": "Pikachu.png", "poder": 35, "altura": "0.4m", "peso": "6.0kg"}, #Datos de pikachu
     {"id": 39, "nombre": "Jigglypuff", "tipo": "Normal", "imagen": "Jigglypuff.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de jigglypuff
     {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de meowth
