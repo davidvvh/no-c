@@ -48,5 +48,4 @@ if __name__ == "__main__":
 
     
     
-    {"id": 23,},#Datos de ekans
-    {"id": 24,},#Datos de arbok
+    {"id": , "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},

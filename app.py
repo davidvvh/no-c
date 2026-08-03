@@ -24,9 +24,22 @@ pokedex = [
     {"id": 20, "nombre": "Raticate", "tipo": "Normal", "imagen": "Raticate.png", "poder": 55, "altura": "0.7m", "peso": "18.5kg"},#Datos de raticate
     {"id": 21, "nombre": "Spearow", "tipo": "Normal/Volador", "imagen": "Spearow.png", "poder": 40, "altura": "0.3m", "peso": "2.0kg"},#Datos de spearow
     {"id": 22, "nombre": "Fearow", "tipo": "Normal/Volador", "imagen": "Fearow.png", "poder": 65, "altura": "1.2m", "peso": "38.0kg"},#Datos de fearow
-    {"id": 23,},#Datos de ekans
-    {"id": 24,},#Datos de arbok
+    {"id": 23, "nombre": "Ekans", "tipo": "Veneno", "imagen": "Ekans.png", "poder": 35, "altura": "2.0m", "peso": "6.9kg"},#Datos de ekans
+    {"id": 24, "nombre": "Arbok", "tipo": "Veneno", "imagen": "Arbok.png", "poder": 60, "altura": "3.5m", "peso": "65.0kg"},#Datos de arbok
     {"id": 25, "nombre": "Pikachu", "tipo": "Electrico", "imagen": "Pikachu.png", "poder": 35, "altura": "0.4m", "peso": "6.0kg"}, #Datos de pikachu
+    {"id": 26, "nombre": "Raichu", "tipo": "Electrico", "imagen": "Raichu.png", "poder": 60, "altura": "0.8m", "peso": "30.0kg"},#Datos de raichu
+    {"id": 27, "nombre": "Sandshrew", "tipo": "Tierra", "imagen": "Sandshrew.png", "poder": 50, "altura": "0.6m", "peso": "12.0kg"},#Datos de sandshrew
+    {"id": 28, "nombre": "Sandslash", "tipo": "Tierra", "imagen": "Sandslash.png", "poder": 75, "altura": "1.0m", "peso": "29.5kg"},#Datos de sandslash
+    {"id": 29, "nombre": "Nidoran♀", "tipo": "Veneno", "imagen": "Nidoran♀.png", "poder": 55, "altura": "0.4m", "peso": "7.0kg"},#Datos de nidoran♀
+    {"id": 30, "nombre": "Nidorina", "tipo": "Veneno", "imagen": "Nidorina.png", "poder": 70, "altura": "0.8m", "peso": "20.0kg"},#Datos de nidorina
+    {"id": 31, "nombre": "Nidoqueen", "tipo": "Veneno/Tierra", "imagen": "Nidoqueen.png", "poder": 90, "altura": "1.3m", "peso": "60.0kg"},#Datos de nidoqueen
+    {"id": 32, "nombre": "Nidoran♂", "tipo": "Veneno", "imagen": "Nidoran♂.png", "poder": 46, "altura": "0.5m", "peso": "9.0kg"},#Datos de nidoran♂
+    {"id": 33, "nombre": "Nidorino", "tipo": "Veneno", "imagen": "Nidorino.png", "poder": 61, "altura": "0.9m", "peso": "19.5kg"},#Datos de nidorino
+    {"id": 34, "nombre": "Nidoking", "tipo": "Veneno/Tierra", "imagen": "Nidoking.png", "poder": 81, "altura": "1.4m", "peso": "62.0kg"},#Datos de nidoking
+    {"id": 35, "nombre": "Clefairy", "tipo": "Normal", "imagen": "Clefairy.png", "poder": 70, "altura": "0.6m", "peso": "7.5kg"},#Datos de clefairy
+    {"id": 36, "nombre": "Clefable", "tipo": "normal", "imagen": "Clefable.png", "poder": 95, "altura": "1.3m", "peso": "40.0kg"},#datos de clefable
+    {"id": 37, "nombre": "Vulpix", "tipo": "Fuego", "imagen": "Vulpix.png", "poder": 38, "altura": "0.6m", "peso": "9.9kg"},#Datos de vulpix
+    {"id": 38, "nombre": "Ninetales", "tipo": "Fuego", "imagen": "Ninetales.png", "poder": 73, "altura": "1.1m", "peso": "19.9kg"},#Datos de ninetales
     {"id": 39, "nombre": "Jigglypuff", "tipo": "Normal", "imagen": "Jigglypuff.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de jigglypuff
     {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de meowth
     {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "imagen": "Psyduck.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de psyduck
