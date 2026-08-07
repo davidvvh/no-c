@@ -41,12 +41,25 @@ pokedex = [
     {"id": 37, "nombre": "Vulpix", "tipo": "Fuego", "imagen": "Vulpix.png", "poder": 38, "altura": "0.6m", "peso": "9.9kg"},#Datos de vulpix
     {"id": 38, "nombre": "Ninetales", "tipo": "Fuego", "imagen": "Ninetales.png", "poder": 73, "altura": "1.1m", "peso": "19.9kg"},#Datos de ninetales
     {"id": 39, "nombre": "Jigglypuff", "tipo": "Normal", "imagen": "Jigglypuff.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de jigglypuff
-    {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de meowth
-    {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "imagen": "Psyduck.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de psyduck
-    {"id": 94, "nombre": "Gengar", "tipo": "Fantasma/Veneno", "imagen": "Gengar.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de gengar
-    {"id": 95, "nombre": "Onix", "tipo": "Roca/Tierra", "imagen": "Onix.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de onix
-    {"id": 143, "nombre": "Snorlax", "tipo": "Normal", "imagen": "Snorlax.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de snorlax
+    {"id": 40, "nombre": "Wigglytuff", "tipo": "Normal", "imagen": "Wigglytuff.png", "poder": 140, "altura": "1.0m", "peso": "12.0kg"},#Datos de wigglytuff
+    {"id": 41, "nombre": "Zubat", "tipo": "Veneno/Volador", "imagen": "Zubat.png", "poder": 40, "altura": "0.8m", "peso": "7.5kg"},#Datos de zubat
+    {"id": 42, "nombre": "Golbat", "tipo": "Veneno/Volador", "imagen": "Golbat.png", "poder": 75, "altura": "1.6m", "peso": "55.0kg"},#Datos de golbat
+    {"id": 43, "nombre": "Oddish", "tipo": "Planta/Veneno", "imagen": "Oddish.png", "poder": 45, "altura": "0.5m", "peso": "5.4kg"},#Datos de oddish
+    {"id": 44, "nombre": "Gloom", "tipo": "Planta/Veneno", "imagen": "Gloom.png", "poder": 60, "altura": "0.8m", "peso": "8.6kg"},#Datos de gloom
+    {"id": 45, "nombre": "Vileplume", "tipo": "Planta/Veneno", "imagen": "Vileplume.png", "poder": 75, "altura": "1.2m", "peso": "18.6kg"},#Datos de vileplume
+    {"id": 46, "nombre": "Paras", "tipo": "Bicho/Planta", "imagen": "Paras.png", "poder": 35, "altura": "0.3m", "peso": "5.4kg"},#Datos de paras
+    {"id": 47, "nombre": "Parasect", "tipo": "Bicho/Planta", "imagen": "Parasect.png", "poder": 60, "altura": "1.0m", "peso": "29.5kg"},#Datos de parasect
+    {"id": 48, "nombre": "Venonat", "tipo": "Bicho/Veneno", "imagen": "Venonat.png", "poder": 60, "altura": "1.0m", "peso": "30.0kg"},#Datos de venonat
+    {"id": 49, "nombre": "Venomoth", "tipo": "Bicho/Veneno", "imagen": "Venomoth.png", "poder": 70, "altura": "1.5m", "peso": "12.5kg"},#Datos de venomoth
+    {"id": , "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},#Datos de 
+    {"id": , "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},#Datos de 
+    {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 40, "altura": "0.4m", "peso": "4.2kg"}, #Datos de meowth
+    {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "imagen": "Psyduck.png", "poder": 50, "altura": "0.8m", "peso": "19.6kg"}, #Datos de psyduck
+    {"id": 94, "nombre": "Gengar", "tipo": "Fantasma/Veneno", "imagen": "Gengar.png", "poder": 60, "altura": "1.5m", "peso": "40.5kg"}, #Datos de gengar
+    {"id": 95, "nombre": "Onix", "tipo": "Roca/Tierra", "imagen": "Onix.png", "poder": 35, "altura": "8.8m", "peso": "210.0kg"}, #Datos de onix
+    {"id": 143, "nombre": "Snorlax", "tipo": "Normal", "imagen": "Snorlax.png", "poder": 45, "altura": "2.1m", "peso": "460.0kg"}, #Datos de snorlax
 ]
+
 
 @app.route('/')
 def mostrar_todos():

@@ -16,6 +16,8 @@ header{
     margin: 30px auto;
     align-items: center;
     display: flex;
+    border: solid;
+    justify-content: center;
 }
 
 main{
