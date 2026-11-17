@@ -51,8 +51,8 @@ pokedex = [
     {"id": 47, "nombre": "Parasect", "tipo": "Bicho/Planta", "imagen": "Parasect.png", "poder": 60, "altura": "1.0m", "peso": "29.5kg"},#Datos de parasect
     {"id": 48, "nombre": "Venonat", "tipo": "Bicho/Veneno", "imagen": "Venonat.png", "poder": 60, "altura": "1.0m", "peso": "30.0kg"},#Datos de venonat
     {"id": 49, "nombre": "Venomoth", "tipo": "Bicho/Veneno", "imagen": "Venomoth.png", "poder": 70, "altura": "1.5m", "peso": "12.5kg"},#Datos de venomoth
-    {"id": , "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},#Datos de 
-    {"id": , "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},#Datos de 
+    {"id": 50, "nombre": "Diglett", "tipo": "Tierra", "imagen": "Diglett.png", "poder": 10, "altura": "0,2m", "peso": "0,8kg"}, #Datos de 
+    {"id": 51, "nombre": "Dugtrio", "tipo": "Tierra", "imagen": "Dugtrio.png", "poder": 35, "altura": "0,7m", "peso": "33,3kg"}, #Datos de 
     {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 40, "altura": "0.4m", "peso": "4.2kg"}, #Datos de meowth
     {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "imagen": "Psyduck.png", "poder": 50, "altura": "0.8m", "peso": "19.6kg"}, #Datos de psyduck
     {"id": 94, "nombre": "Gengar", "tipo": "Fantasma/Veneno", "imagen": "Gengar.png", "poder": 60, "altura": "1.5m", "peso": "40.5kg"}, #Datos de gengar
