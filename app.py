@@ -82,6 +82,19 @@ pokedex = [
     {"id": 78, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 79, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 80, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 81, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 82, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 83, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 84, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 85, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 86, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 87, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 88, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 89, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 90, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 91, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 92, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 93, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 94, "nombre": "Gengar", "tipo": "Fantasma/Veneno", "imagen": "Gengar.png", "poder": 60, "altura": "1.5m", "peso": "40.5kg"}, #Datos de gengar
     {"id": 95, "nombre": "Onix", "tipo": "Roca/Tierra", "imagen": "Onix.png", "poder": 35, "altura": "8.8m", "peso": "210.0kg"}, #Datos de onix
     {"id": 143, "nombre": "Snorlax", "tipo": "Normal", "imagen": "Snorlax.png", "poder": 45, "altura": "2.1m", "peso": "460.0kg"}, #Datos de snorlax
