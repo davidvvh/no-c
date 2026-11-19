@@ -56,6 +56,32 @@ pokedex = [
     {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 40, "altura": "0.4m", "peso": "4.2kg"}, #Datos de meowth
     {"id": 53, "nombre": "Persian", "tipo": "Normal", "imagen": "Persian.png", "poder": 65, "altura": "1,0m", "peso": "32,0kg"},
     {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "imagen": "Psyduck.png", "poder": 50, "altura": "0.8m", "peso": "19.6kg"}, #Datos de psyduck
+    {"id": 55, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 56, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 57, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 58, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 59, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 60, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 61, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 62, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 63, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 64, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 65, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 66, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 67, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 68, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 69, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 70, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 71, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 72, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 73, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 74, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 75, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 76, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 77, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 78, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 79, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 80, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 94, "nombre": "Gengar", "tipo": "Fantasma/Veneno", "imagen": "Gengar.png", "poder": 60, "altura": "1.5m", "peso": "40.5kg"}, #Datos de gengar
     {"id": 95, "nombre": "Onix", "tipo": "Roca/Tierra", "imagen": "Onix.png", "poder": 35, "altura": "8.8m", "peso": "210.0kg"}, #Datos de onix
     {"id": 143, "nombre": "Snorlax", "tipo": "Normal", "imagen": "Snorlax.png", "poder": 45, "altura": "2.1m", "peso": "460.0kg"}, #Datos de snorlax
