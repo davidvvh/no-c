@@ -14,48 +14,48 @@ pokedex = [
     {"id": 10, "nombre": "Caterpie", "tipo": "Bicho", "imagen": "Caterpie.png", "poder": 45, "altura": "0.3m", "peso": "2.9kg"}, #Datos de caterpie
     {"id": 11, "nombre": "Metapod", "tipo": "Bicho", "imagen": "Metapod.png", "poder": 50, "altura": "0.7m", "peso": "9.9kg"}, #Datos de metapod
     {"id": 12, "nombre": "Butterfree", "tipo": "Bicho/volador", "imagen": "Butterfree.png", "poder": 60, "altura": "1.1m", "peso": "32.0kg"}, #Datos de butterfree
-    {"id": 13, "nombre": "Weedle", "tipo": "Bicho/Veneno", "imagen": "Weedle.png", "poder": 40, "altura": "0.3m", "peso": "3.2kg"}, #Datos de weedle
-    {"id": 14, "nombre": "Kakuna", "tipo": "Bicho/Veneno", "imagen": "Kakuna.png", "poder": 45, "altura": "0.6m", "peso": "10.0kg"}, #Datos de kakuna
-    {"id": 15, "nombre": "Beedrill", "tipo": "Bicho/Veneno", "imagen": "Beedrill.png", "poder": 65, "altura": "1.0m", "peso": "29.5kg"}, #Datos de beedrill
-    {"id": 16, "nombre": "Pidgey", "tipo": "Normal/Volador", "imagen": "Pidgey.png", "poder": 40, "altura": "0.3m", "peso": "1.8kg"},#Datos de pidgey
-    {"id": 17, "nombre": "Pidgeotto", "tipo": "Normal/Volador", "imagen": "Pidgeotto.png", "poder": 63, "altura": "1.1m", "peso": "30.0kg"},#Datos de pidgeotto
-    {"id": 18, "nombre": "Pidgeot", "tipo": "Normal/Volador", "imagen": "Pidgeot.png", "poder": 83, "altura": "1.5m", "peso": "39.5kg"},#Datos de pidgeot
-    {"id": 19, "nombre": "Rattata", "tipo": "Normal", "imagen": "Rattata.png", "poder": 30, "altura": "0.3m", "peso": "3.5kg"},#Datos de rattata
-    {"id": 20, "nombre": "Raticate", "tipo": "Normal", "imagen": "Raticate.png", "poder": 55, "altura": "0.7m", "peso": "18.5kg"},#Datos de raticate
-    {"id": 21, "nombre": "Spearow", "tipo": "Normal/Volador", "imagen": "Spearow.png", "poder": 40, "altura": "0.3m", "peso": "2.0kg"},#Datos de spearow
-    {"id": 22, "nombre": "Fearow", "tipo": "Normal/Volador", "imagen": "Fearow.png", "poder": 65, "altura": "1.2m", "peso": "38.0kg"},#Datos de fearow
-    {"id": 23, "nombre": "Ekans", "tipo": "Veneno", "imagen": "Ekans.png", "poder": 35, "altura": "2.0m", "peso": "6.9kg"},#Datos de ekans
-    {"id": 24, "nombre": "Arbok", "tipo": "Veneno", "imagen": "Arbok.png", "poder": 60, "altura": "3.5m", "peso": "65.0kg"},#Datos de arbok
-    {"id": 25, "nombre": "Pikachu", "tipo": "Electrico", "imagen": "Pikachu.png", "poder": 35, "altura": "0.4m", "peso": "6.0kg"}, #Datos de pikachu
-    {"id": 26, "nombre": "Raichu", "tipo": "Electrico", "imagen": "Raichu.png", "poder": 60, "altura": "0.8m", "peso": "30.0kg"},#Datos de raichu
-    {"id": 27, "nombre": "Sandshrew", "tipo": "Tierra", "imagen": "Sandshrew.png", "poder": 50, "altura": "0.6m", "peso": "12.0kg"},#Datos de sandshrew
-    {"id": 28, "nombre": "Sandslash", "tipo": "Tierra", "imagen": "Sandslash.png", "poder": 75, "altura": "1.0m", "peso": "29.5kg"},#Datos de sandslash
-    {"id": 29, "nombre": "Nidoran♀", "tipo": "Veneno", "imagen": "Nidoran♀.png", "poder": 55, "altura": "0.4m", "peso": "7.0kg"},#Datos de nidoran♀
-    {"id": 30, "nombre": "Nidorina", "tipo": "Veneno", "imagen": "Nidorina.png", "poder": 70, "altura": "0.8m", "peso": "20.0kg"},#Datos de nidorina
-    {"id": 31, "nombre": "Nidoqueen", "tipo": "Veneno/Tierra", "imagen": "Nidoqueen.png", "poder": 90, "altura": "1.3m", "peso": "60.0kg"},#Datos de nidoqueen
-    {"id": 32, "nombre": "Nidoran♂", "tipo": "Veneno", "imagen": "Nidoran♂.png", "poder": 46, "altura": "0.5m", "peso": "9.0kg"},#Datos de nidoran♂
-    {"id": 33, "nombre": "Nidorino", "tipo": "Veneno", "imagen": "Nidorino.png", "poder": 61, "altura": "0.9m", "peso": "19.5kg"},#Datos de nidorino
-    {"id": 34, "nombre": "Nidoking", "tipo": "Veneno/Tierra", "imagen": "Nidoking.png", "poder": 81, "altura": "1.4m", "peso": "62.0kg"},#Datos de nidoking
-    {"id": 35, "nombre": "Clefairy", "tipo": "Normal", "imagen": "Clefairy.png", "poder": 70, "altura": "0.6m", "peso": "7.5kg"},#Datos de clefairy
-    {"id": 36, "nombre": "Clefable", "tipo": "normal", "imagen": "Clefable.png", "poder": 95, "altura": "1.3m", "peso": "40.0kg"},#datos de clefable
-    {"id": 37, "nombre": "Vulpix", "tipo": "Fuego", "imagen": "Vulpix.png", "poder": 38, "altura": "0.6m", "peso": "9.9kg"},#Datos de vulpix
-    {"id": 38, "nombre": "Ninetales", "tipo": "Fuego", "imagen": "Ninetales.png", "poder": 73, "altura": "1.1m", "peso": "19.9kg"},#Datos de ninetales
-    {"id": 39, "nombre": "Jigglypuff", "tipo": "Normal", "imagen": "Jigglypuff.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"}, #Datos de jigglypuff
-    {"id": 40, "nombre": "Wigglytuff", "tipo": "Normal", "imagen": "Wigglytuff.png", "poder": 140, "altura": "1.0m", "peso": "12.0kg"},#Datos de wigglytuff
-    {"id": 41, "nombre": "Zubat", "tipo": "Veneno/Volador", "imagen": "Zubat.png", "poder": 40, "altura": "0.8m", "peso": "7.5kg"},#Datos de zubat
-    {"id": 42, "nombre": "Golbat", "tipo": "Veneno/Volador", "imagen": "Golbat.png", "poder": 75, "altura": "1.6m", "peso": "55.0kg"},#Datos de golbat
-    {"id": 43, "nombre": "Oddish", "tipo": "Planta/Veneno", "imagen": "Oddish.png", "poder": 45, "altura": "0.5m", "peso": "5.4kg"},#Datos de oddish
-    {"id": 44, "nombre": "Gloom", "tipo": "Planta/Veneno", "imagen": "Gloom.png", "poder": 60, "altura": "0.8m", "peso": "8.6kg"},#Datos de gloom
-    {"id": 45, "nombre": "Vileplume", "tipo": "Planta/Veneno", "imagen": "Vileplume.png", "poder": 75, "altura": "1.2m", "peso": "18.6kg"},#Datos de vileplume
-    {"id": 46, "nombre": "Paras", "tipo": "Bicho/Planta", "imagen": "Paras.png", "poder": 35, "altura": "0.3m", "peso": "5.4kg"},#Datos de paras
-    {"id": 47, "nombre": "Parasect", "tipo": "Bicho/Planta", "imagen": "Parasect.png", "poder": 60, "altura": "1.0m", "peso": "29.5kg"},#Datos de parasect
-    {"id": 48, "nombre": "Venonat", "tipo": "Bicho/Veneno", "imagen": "Venonat.png", "poder": 60, "altura": "1.0m", "peso": "30.0kg"},#Datos de venonat
-    {"id": 49, "nombre": "Venomoth", "tipo": "Bicho/Veneno", "imagen": "Venomoth.png", "poder": 70, "altura": "1.5m", "peso": "12.5kg"},#Datos de venomoth
-    {"id": 50, "nombre": "Diglett", "tipo": "Tierra", "imagen": "Diglett.png", "poder": 10, "altura": "0,2m", "peso": "0,8kg"}, #Datos de 
-    {"id": 51, "nombre": "Dugtrio", "tipo": "Tierra", "imagen": "Dugtrio.png", "poder": 35, "altura": "0,7m", "peso": "33,3kg"}, #Datos de 
-    {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 40, "altura": "0.4m", "peso": "4.2kg"}, #Datos de meowth
+    {"id": 13, "nombre": "Weedle", "tipo": "Bicho/Veneno", "imagen": "Weedle.png", "poder": 40, "altura": "0.3m", "peso": "3.2kg"},
+    {"id": 14, "nombre": "Kakuna", "tipo": "Bicho/Veneno", "imagen": "Kakuna.png", "poder": 45, "altura": "0.6m", "peso": "10.0kg"},
+    {"id": 15, "nombre": "Beedrill", "tipo": "Bicho/Veneno", "imagen": "Beedrill.png", "poder": 65, "altura": "1.0m", "peso": "29.5kg"},
+    {"id": 16, "nombre": "Pidgey", "tipo": "Normal/Volador", "imagen": "Pidgey.png", "poder": 40, "altura": "0.3m", "peso": "1.8kg"},
+    {"id": 17, "nombre": "Pidgeotto", "tipo": "Normal/Volador", "imagen": "Pidgeotto.png", "poder": 63, "altura": "1.1m", "peso": "30.0kg"},
+    {"id": 18, "nombre": "Pidgeot", "tipo": "Normal/Volador", "imagen": "Pidgeot.png", "poder": 83, "altura": "1.5m", "peso": "39.5kg"},
+    {"id": 19, "nombre": "Rattata", "tipo": "Normal", "imagen": "Rattata.png", "poder": 30, "altura": "0.3m", "peso": "3.5kg"},
+    {"id": 20, "nombre": "Raticate", "tipo": "Normal", "imagen": "Raticate.png", "poder": 55, "altura": "0.7m", "peso": "18.5kg"},
+    {"id": 21, "nombre": "Spearow", "tipo": "Normal/Volador", "imagen": "Spearow.png", "poder": 40, "altura": "0.3m", "peso": "2.0kg"},
+    {"id": 22, "nombre": "Fearow", "tipo": "Normal/Volador", "imagen": "Fearow.png", "poder": 65, "altura": "1.2m", "peso": "38.0kg"},
+    {"id": 23, "nombre": "Ekans", "tipo": "Veneno", "imagen": "Ekans.png", "poder": 35, "altura": "2.0m", "peso": "6.9kg"},
+    {"id": 24, "nombre": "Arbok", "tipo": "Veneno", "imagen": "Arbok.png", "poder": 60, "altura": "3.5m", "peso": "65.0kg"},
+    {"id": 25, "nombre": "Pikachu", "tipo": "Electrico", "imagen": "Pikachu.png", "poder": 35, "altura": "0.4m", "peso": "6.0kg"},
+    {"id": 26, "nombre": "Raichu", "tipo": "Electrico", "imagen": "Raichu.png", "poder": 60, "altura": "0.8m", "peso": "30.0kg"},
+    {"id": 27, "nombre": "Sandshrew", "tipo": "Tierra", "imagen": "Sandshrew.png", "poder": 50, "altura": "0.6m", "peso": "12.0kg"},
+    {"id": 28, "nombre": "Sandslash", "tipo": "Tierra", "imagen": "Sandslash.png", "poder": 75, "altura": "1.0m", "peso": "29.5kg"},
+    {"id": 29, "nombre": "Nidoran♀", "tipo": "Veneno", "imagen": "Nidoran♀.png", "poder": 55, "altura": "0.4m", "peso": "7.0kg"},
+    {"id": 30, "nombre": "Nidorina", "tipo": "Veneno", "imagen": "Nidorina.png", "poder": 70, "altura": "0.8m", "peso": "20.0kg"},
+    {"id": 31, "nombre": "Nidoqueen", "tipo": "Veneno/Tierra", "imagen": "Nidoqueen.png", "poder": 90, "altura": "1.3m", "peso": "60.0kg"},
+    {"id": 32, "nombre": "Nidoran♂", "tipo": "Veneno", "imagen": "Nidoran♂.png", "poder": 46, "altura": "0.5m", "peso": "9.0kg"},
+    {"id": 33, "nombre": "Nidorino", "tipo": "Veneno", "imagen": "Nidorino.png", "poder": 61, "altura": "0.9m", "peso": "19.5kg"},
+    {"id": 34, "nombre": "Nidoking", "tipo": "Veneno/Tierra", "imagen": "Nidoking.png", "poder": 81, "altura": "1.4m", "peso": "62.0kg"},
+    {"id": 35, "nombre": "Clefairy", "tipo": "Normal", "imagen": "Clefairy.png", "poder": 70, "altura": "0.6m", "peso": "7.5kg"},
+    {"id": 36, "nombre": "Clefable", "tipo": "normal", "imagen": "Clefable.png", "poder": 95, "altura": "1.3m", "peso": "40.0kg"},
+    {"id": 37, "nombre": "Vulpix", "tipo": "Fuego", "imagen": "Vulpix.png", "poder": 38, "altura": "0.6m", "peso": "9.9kg"},
+    {"id": 38, "nombre": "Ninetales", "tipo": "Fuego", "imagen": "Ninetales.png", "poder": 73, "altura": "1.1m", "peso": "19.9kg"},
+    {"id": 39, "nombre": "Jigglypuff", "tipo": "Normal", "imagen": "Jigglypuff.png", "poder": 45, "altura": "0.7m", "peso": "6.9kg"},
+    {"id": 40, "nombre": "Wigglytuff", "tipo": "Normal", "imagen": "Wigglytuff.png", "poder": 140, "altura": "1.0m", "peso": "12.0kg"},
+    {"id": 41, "nombre": "Zubat", "tipo": "Veneno/Volador", "imagen": "Zubat.png", "poder": 40, "altura": "0.8m", "peso": "7.5kg"},
+    {"id": 42, "nombre": "Golbat", "tipo": "Veneno/Volador", "imagen": "Golbat.png", "poder": 75, "altura": "1.6m", "peso": "55.0kg"},
+    {"id": 43, "nombre": "Oddish", "tipo": "Planta/Veneno", "imagen": "Oddish.png", "poder": 45, "altura": "0.5m", "peso": "5.4kg"},
+    {"id": 44, "nombre": "Gloom", "tipo": "Planta/Veneno", "imagen": "Gloom.png", "poder": 60, "altura": "0.8m", "peso": "8.6kg"},
+    {"id": 45, "nombre": "Vileplume", "tipo": "Planta/Veneno", "imagen": "Vileplume.png", "poder": 75, "altura": "1.2m", "peso": "18.6kg"},
+    {"id": 46, "nombre": "Paras", "tipo": "Bicho/Planta", "imagen": "Paras.png", "poder": 35, "altura": "0.3m", "peso": "5.4kg"},
+    {"id": 47, "nombre": "Parasect", "tipo": "Bicho/Planta", "imagen": "Parasect.png", "poder": 60, "altura": "1.0m", "peso": "29.5kg"},
+    {"id": 48, "nombre": "Venonat", "tipo": "Bicho/Veneno", "imagen": "Venonat.png", "poder": 60, "altura": "1.0m", "peso": "30.0kg"},
+    {"id": 49, "nombre": "Venomoth", "tipo": "Bicho/Veneno", "imagen": "Venomoth.png", "poder": 70, "altura": "1.5m", "peso": "12.5kg"},
+    {"id": 50, "nombre": "Diglett", "tipo": "Tierra", "imagen": "Diglett.png", "poder": 10, "altura": "0,2m", "peso": "0,8kg"},
+    {"id": 51, "nombre": "Dugtrio", "tipo": "Tierra", "imagen": "Dugtrio.png", "poder": 35, "altura": "0,7m", "peso": "33,3kg"},
+    {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 40, "altura": "0.4m", "peso": "4.2kg"},
     {"id": 53, "nombre": "Persian", "tipo": "Normal", "imagen": "Persian.png", "poder": 65, "altura": "1,0m", "peso": "32,0kg"},
-    {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "imagen": "Psyduck.png", "poder": 50, "altura": "0.8m", "peso": "19.6kg"}, #Datos de psyduck
+    {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "imagen": "Psyduck.png", "poder": 50, "altura": "0.8m", "peso": "19.6kg"},
     {"id": 55, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 56, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 57, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
