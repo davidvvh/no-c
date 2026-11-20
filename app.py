@@ -56,7 +56,7 @@ pokedex = [
     {"id": 52, "nombre": "Meowth", "tipo": "Normal", "imagen": "Meowth.png", "poder": 40, "altura": "0.4m", "peso": "4.2kg"},
     {"id": 53, "nombre": "Persian", "tipo": "Normal", "imagen": "Persian.png", "poder": 65, "altura": "1,0m", "peso": "32,0kg"},
     {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "imagen": "Psyduck.png", "poder": 50, "altura": "0.8m", "peso": "19.6kg"},
-    {"id": 55, "nombre": "Golduck", "tipo": "Agua", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 55, "nombre": "Golduck", "tipo": "Agua", "imagen": "Golduck.png", "poder": 80, "altura": "1.7m", "peso": "76.6kg"},
     {"id": 56, "nombre": "Mankey", "tipo": "Lucha", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 57, "nombre": "Primeape", "tipo": "Lucha", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 58, "nombre": "Growlithe", "tipo": "Fuego", "imagen": "", "poder": , "altura": "", "peso": ""},
