@@ -102,6 +102,16 @@ pokedex = [
     {"id": 98, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 99, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 100, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 101, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 102, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 103, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 104, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 105, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 106, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 107, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 108, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 109, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 110, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 143, "nombre": "Snorlax", "tipo": "Normal", "imagen": "Snorlax.png", "poder": 45, "altura": "2.1m", "peso": "460.0kg"},
     {"id": 151, "nombre": "Mew", "tipo": "Psiquico", "imagen": "Mew.png", "poder": 100, "altura": "0.4m", "peso": "4.0kg"}
 ]
