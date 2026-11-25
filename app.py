@@ -75,7 +75,7 @@ pokedex = [
     {"id": 71, "nombre": "Victreebel", "tipo": "Planta/Veneno", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 72, "nombre": "Tentacool", "tipo": "Agua/Veneno", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 73, "nombre": "Tentacruel", "tipo": "Agua/Veneno", "imagen": "", "poder": , "altura": "", "peso": ""},
-    {"id": 74, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
+    {"id": 74, "nombre": "Geodude", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 75, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 76, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
     {"id": 77, "nombre": "", "tipo": "", "imagen": "", "poder": , "altura": "", "peso": ""},
